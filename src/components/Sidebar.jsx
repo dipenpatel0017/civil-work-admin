@@ -23,6 +23,7 @@ const Sidebar = () => {
        Admin
       </div>
       <nav className="mt-4 space-y-2">
+  
         {navItems.map((item) => (
           <Link
             key={item.path}
